@@ -35,7 +35,7 @@ echo "$(date) $(whoami) '$0' '$1' | Desktop Environment: '$DESKTOP'" >> "${log}"
 
 # The original got a "disable" here. That's batshit insane.
 # If you think it's a good idea to unlock your computer just because someone
-# got a USB device with a certaian ID please go away. Seriously. Go away.
+# got a USB device with a certain ID please go away. Seriously. Go away.
 case "$1" in
 enable)
 	if [ -n "${user}" ]; then
