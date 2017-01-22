@@ -1,6 +1,7 @@
 #!/bin/bash
 log="/var/log/yubilock.log"
 
+# shellcheck disable=SC2009
 user=$(ps aux | grep -v root | grep -v gdm | \
 	 grep session | head -n 1 | awk '{print $1}')
 
